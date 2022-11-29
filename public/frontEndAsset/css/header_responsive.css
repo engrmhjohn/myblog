@@ -1,0 +1,99 @@
+/* only small desktops */
+/* tablets */
+ @media (min-width: 992px) and (max-width: 1190px) {
+     .countdown{
+         height: 285px;
+    }
+     .top-header .navbar .navbar-collapse ul li a{
+         font-size: 14px;
+    }
+	.social_icon {
+    margin-bottom: 30px;
+}
+.top-header .navbar .navbar-collapse ul li a {
+padding: 7px 15px;
+}
+
+a.navbar-brand img {
+    height: 33px;
+}
+
+}
+/* only small tablets */
+ @media (min-width: 768px) and (max-width: 991px) {
+     .top-header .navbar .navbar-collapse ul li a{
+         padding: 5px 15px;
+    }
+     .top-header{
+         position: relative;
+    }
+     figure.effect-service h2{
+         font-size: 12px;
+    }
+     .top-header {
+         background-image: none;
+         background-color: #6c63ac;
+    }
+     .top-header .navbar .navbar-collapse ul li a:hover, .top-header .navbar .navbar-collapse ul li a:focus {
+         color: #0892fd;
+    }
+     .section.layout_padding h4 {
+         text-align: left;
+    }
+.social_icon {
+    margin-bottom: 30px;
+}
+	.top-header #navbar-wd {
+         padding-right: 0;
+    }
+	.tab_menu {
+    overflow-y: hidden !important;
+    padding: 0 30px;
+}
+
+}
+/* mobile or only mobile */
+ @media (max-width: 767px) {
+     .navbar-brand{
+         margin-left: 10px;
+         margin-right: 10px;
+    }
+     .top-header .navbar .navbar-collapse ul li a{
+         padding: 5px 15px;
+    }
+     .top-header{
+         position: relative;
+    }
+	.top-header {
+    width: 100%;
+    margin: 0;
+}
+
+a.navbar-brand img {
+    height: auto;
+}
+
+.tab_menu {
+    overflow-x: scroll !important;
+}
+
+.tab_menu {
+  padding: 0 13px;
+}
+     .navbar-brand img {
+         width: 210px;
+    }
+     .top-header {
+         background-image: none;
+         background-color: #6c63ac;
+    }
+     a.navbar-brand {
+         left: 0;
+         position: relative;
+    }
+     .top-header #navbar-wd {
+         padding-right: 0;
+    }
+
+}
+ 
