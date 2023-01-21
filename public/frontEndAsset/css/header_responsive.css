@@ -40,6 +40,9 @@ a.navbar-brand img {
      .section.layout_padding h4 {
          text-align: left;
     }
+    .search-box form input{
+        width: 600px;
+    }
 .social_icon {
     margin-bottom: 30px;
 }
@@ -67,6 +70,9 @@ a.navbar-brand img {
 	.top-header {
     width: 100%;
     margin: 0;
+}
+.search-box form input{
+	width: 280px;
 }
 
 a.navbar-brand img {

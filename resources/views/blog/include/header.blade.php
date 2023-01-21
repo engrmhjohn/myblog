@@ -17,6 +17,15 @@
                     <li><a class="nav-link" href="{{ route('login') }}">Admin Panel</a></li>
                 </ul>
             </div>
+            <div class="search-box">
+                <form action="{{route('search')}}" method="GET">
+                    <input type="search" name="search_query" class="search-txt" placeholder="Search by any keyword">
+                    <button type="submit" class="btn btn-info">Search</button>
+                    <!-- <a class="search-btn btn" type="submit">
+                        <img src="{{ asset('frontEndAsset') }}/img/search_icon.png" alt="#" />
+                    </a> -->
+                </form>
+            </div>
         </div>
     </nav>
 </header>

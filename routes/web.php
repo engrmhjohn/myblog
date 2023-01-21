@@ -21,6 +21,7 @@ use App\Http\Controllers\GuestController;
 //});
 
 Route::get('/',[BlogController::class,'blog'])->name('/');
+Route::get('/search',[BlogController::class,'search'])->name('search');
 Route::get('/add-blog',[BlogController::class,'addBlog'])->name('add-blog');
 Route::post('/new-blog',[BlogController::class,'saveBlog'])->name('new-blog');
 Route::get('/manage-blog',[BlogController::class,'manageBlog'])->name('manage-blog');

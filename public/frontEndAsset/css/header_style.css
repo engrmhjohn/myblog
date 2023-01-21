@@ -310,8 +310,8 @@ a.navbar-brand img {
 	color: #d4a81e;
 }
 
-.search_icon.nav-link img {
-	width: 25px;
+.search-box form input{
+	width: 200px;
 }
 
 .top-header .navbar .navbar-collapse ul li {

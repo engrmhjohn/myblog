@@ -140,4 +140,11 @@ class BlogController extends Controller
         Contact::create($request->all());
         return redirect('/contact-us')->with(['success' => 'Thanks! We will contact you shortly.']);
     }
+    public function search(){
+        $search_text = $_GET['search_query'];
+        return view('blog.all-blogs.search-blogs',[
+            'allblogs'=>Blog::where('blog_title','LIKE','%'.$search_text.'%')->paginate(18),
+            'g_allblogs'=>Guest::where('g_blog_title','LIKE','%'.$search_text.'%')->paginate(18),
+        ]);
+    }
 }
